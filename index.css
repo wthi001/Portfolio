@@ -1,0 +1,305 @@
+body {
+    background-color:rgb(205, 245, 255);
+    margin:0;
+    padding:0;
+  }
+  
+  nav {
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:50px;
+    
+  }
+  
+  .name {
+   color:white;
+   font-size:18px;
+   font-family:'lato', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   margin-top:auto;
+   margin-bottom:auto;
+   margin-left:15px;
+  }
+  
+  .menuItems {
+    display:none;
+    padding-right:5px;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  
+  .menuItems a{
+     margin-left:5px;
+     font-family:'lato', sans-serif;
+     font-family: 'Oswald', sans-serif;
+     font-size:14px;
+    }
+  
+  .bioLink {
+   color:rgb(103, 123, 190);
+   
+  }
+  
+  .portfolioLink {
+    color:rgb(123, 245, 111);
+  }
+  
+  .contactLink {
+    color:rgb(252, 127, 127);
+  }
+  
+  .navButton {
+    background-color:black;
+    color:white;
+    border:grey 2px solid;
+    margin-top: 14px;
+    margin-right:15px;
+  }
+  
+  header {
+    text-align:center;
+    width:220px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#09375c;
+    font-family:'oswald', sans-serif;
+    font-size:20px;
+    margin-top:50px;
+  } 
+  
+  .profilePic {
+      border: 3px solid white;
+      width: 250px;
+      height: 270px;
+      background-image: url('https://user-images.githubusercontent.com/49135528/59744739-bd2ffd80-9262-11e9-9336-05b17d4ef38d.jpg');
+      margin-left:auto;
+      margin-right:auto;
+      background-size: cover;  
+      
+    }
+  
+  .bio {
+    text-align:center;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'open sans',san-serif;
+    font-family:'lora', serif;
+    color:#09375c;
+  }
+  
+  .bio p {
+    font-size:16px;
+  }
+  
+  .portfolio {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family:'open sans',san-serif;
+    font-family:'lora', serif;
+    color:#09375c;
+  }
+  
+  .tech {
+    text-align:left;
+    position:relative;
+    bottom:30px;
+  }
+  
+  .projectInfo {
+    text-align:left;
+    color:#09375c;
+    width:280px;
+    height: 249px;
+    display: inline-block;
+  }
+  
+  .projectInfo h3 {
+    text-align:left;
+    position:relative;
+    bottom:15px; 
+  }
+  
+  .projectInfo p {
+    text-align:left;
+    font-size:16px;
+    position:relative;
+    bottom:50px;
+  }
+  
+  .screenshot  {
+    text-align:center;
+    width:280px;
+    height:249px;
+  }
+    
+  .projectLink {
+    color:#09375c;
+    position:relative;
+    bottom:60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:16px;
+  }
+  
+  .contact {
+    position:relative;
+    bottom:10px;
+  }
+  
+  .contact h2{
+    color:#09375c;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    padding-left:5px;
+  }
+  .contact a {
+    color:#0000EE;
+    font-size:14px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-right:5px;
+     padding-left:5px;
+  }
+  
+  .contact a:hover {
+    color:green;
+  }
+  
+  @media screen and (min-width:768px) {
+   
+   .name {
+     font-size:20px;
+     margin-left:17px;
+   }
+   
+   nav{
+     height:55px;
+   }
+   
+   .menuItems {
+     display:flex;
+    }
+  
+    .menuItems a{
+     margin-left:10px;
+     font-size:16px;
+    }
+    
+    .burger {
+      display:none;
+    }
+  
+    header {
+      
+      font-size:22px;
+      
+    }
+    
+    .profilePic {
+     border: 5px solid white;
+      width: 350px;
+      height: 375px;
+      background-size:cover;
+    }
+    
+    .bio h3 {
+     font-size:22px;
+    }
+    
+    .bio p {
+    font-size:18px;
+   }
+    
+    .projectInfo {
+      width:675px;
+    }
+    
+    .project-info p {
+      font-size:18px;
+    }
+  
+    .portfolio {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+    }
+    
+    .portfolio h3{
+     font-size:22px; 
+    }
+  
+    .screenshot {
+     width:672px;
+     height:450px;
+    }
+    
+    .contact h2 {
+      font-size:26px;
+    }
+  
+    .contactInfo a {
+     font-size:16px;
+    }
+  }
+  
+  @media screen and (min-width:1024px) {
+   
+   .name {
+     font-size:22px;
+     margin-left:19px;
+   }
+   
+   .menuItems {
+     display:flex;
+     font-size:18px;
+     
+    }
+  
+    .menuItems a{
+     margin-left:14px;
+    }
+    
+    .burger {
+      display:none;
+    }
+  
+    header {
+      font-size:24px;
+    }
+   
+   .profilePic {
+     border: 7px solid white;
+      width: 550px;
+      height: 475px;
+      background-size:cover;
+    }
+    
+    .bio h3 {
+     font-size:24px;
+    }
+    
+    .bio p {
+    font-size:20px;
+   }
+    
+    .projectInfo {
+      width:825px;
+    }
+    
+    .project-info p {
+      font-size:20px;
+    } 
+   
+    .screenshot {
+     width:820px;
+     height:600px;
+    }
+    
+    .contactInfo a {
+     font-size:20px;
+    }
+  }
+  
+  
